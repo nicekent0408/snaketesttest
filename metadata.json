@@ -1,0 +1,6 @@
+{
+  "name": "CyberSnake",
+  "description": "一個具備霓虹風格與流暢動畫的現代感貪食蛇遊戲，使用 React 與 Canvas 建立。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
