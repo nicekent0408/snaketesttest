@@ -1,20 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# CyberSnake
 
-# Run and deploy your AI Studio app
+A neon-themed Snake game built with React, Vite, and Canvas.
 
-This contains everything you need to run your app locally.
+## Run locally
 
-View your app in AI Studio: https://ai.studio/apps/7676d96e-66d5-4bcb-8559-2f6021e27ab4
+Requirements:
+- Node.js 20+
 
-## Run Locally
+Commands:
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
+1. Install dependencies
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Run development server
    `npm run dev`
+3. Build for production
+   `npm run build`
+
+## Project structure
+
+- `src/` — React source files
+- `src/components/` — game component implementation
+- `index.html` — application shell
+- `vite.config.ts` — Vite configuration
+
+## GitHub Pages
+
+This repository uses a GitHub Actions workflow to deploy the site from `dist/` to GitHub Pages.
+The live site will be served at:
+
+`https://nicekent0408.github.io/snaketesttest/`
+
+## Notes
+
+This project does not require Google AI Studio or Gemini API configuration.
